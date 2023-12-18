@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX2001L1.mk
+    $(LOCAL_DIR)/aosp_RMX2001L1.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_RMX2001L1-user \
+    aosp_RMX2001L1-userdebug \
+    aosp_RMX2001L1-eng
